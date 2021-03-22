@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 719px){
+@media screen and (max-width: 425px){
     .bg {
         position: fixed;
         top: 0;
@@ -12,10 +12,11 @@
         min-height: 100%;
         width: 100%;
     }
+    
     h1 {
         font-family:DFKai-sb ;
         color: palegoldenrod;
-        font-size:  10px;
+        font-size:  70px;
         text-shadow: 1px 1px 0px #000000;
         text-align:center;
         line-height:100px;
@@ -24,7 +25,7 @@
     h3 {
         font-family:DFKai-sb ;
         color: palegoldenrod;
-        font-size:  10px;
+        font-size:  70px;
         text-shadow: 1px 1px 0px #000000;
         text-align:center;
         line-height:100px;
@@ -33,10 +34,11 @@
         color:khaki;
         font-family:DFKai-sb ;
         font-style: italic;
+        font-size:100px ;
     }
     
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
     .bg {
         position: fixed;
         top: 0;
@@ -49,10 +51,13 @@
         min-height: 100%;
         width: 100%;
     }
+    .al img{
+        width: 55%;
+    }
     h1 {
         font-family:DFKai-sb ;
         color: palegoldenrod;
-        font-size:  50px;
+        font-size:  100px;
         text-shadow: 1px 1px 0px #000000;
         text-align:center;
         line-height:100px;
@@ -61,7 +66,7 @@
     h3 {
         font-family:DFKai-sb ;
         color: palegoldenrod;
-        font-size:  50px;
+        font-size:  100px;
         text-shadow: 1px 1px 0px #000000;
         text-align:center;
         line-height:100px;
@@ -70,10 +75,14 @@
         color:khaki;
         font-family:DFKai-sb ;
         font-style: italic;
+        font-size:50px ;
     }
-    
+    body{
+        width: 960x;
+        margin:0 auto;
+    }
 }
-@media only screen and (min-width: 720px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     .bg {
         position: fixed;
         top: 0;
@@ -86,10 +95,13 @@
         min-height: 100%;
         width: 100%;
     }
+    .al img{
+        width: 50%;
+    }
     h1 {
         font-family:DFKai-sb ;
         color: palegoldenrod;
-        font-size:  30px;
+        font-size:  60px;
         text-shadow: 1px 1px 0px #000000;
         text-align:center;
         line-height:100px;
@@ -98,7 +110,7 @@
     h3 {
         font-family:DFKai-sb ;
         color: palegoldenrod;
-        font-size:  30px;
+        font-size:  60px;
         text-shadow: 1px 1px 0px #000000;
         text-align:center;
         line-height:100px;
@@ -107,8 +119,12 @@
         color:khaki;
         font-family:DFKai-sb ;
         font-style: italic;
+        font-size:40px ;
     }
-    
+    body{
+        width: 960x;
+        margin:0 auto;
+    }
 } 
 
 
